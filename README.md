@@ -1,6 +1,7 @@
 # Redfin Real Estate Analytics Pipeline
 
-![Architecture](assets/architecture-diagram.png)
+![NWZrBEnJ6Us-HD](https://github.com/user-attachments/assets/26892bd9-23fd-43b4-addd-066f80cd7b69)
+
 
 ## 📊 Project Overview
 
@@ -121,6 +122,9 @@ aws configure
 airflow standalone
 ```
 
+<img width="1227" height="941" alt="image" src="https://github.com/user-attachments/assets/a1d9e778-5ff8-4f32-875f-5f22cbe15305" />
+
+
 **Deploy DAG:**
 1. Copy `redfin_analytics.py` to `~/airflow/dags/`
 2. Update AWS credentials in the script or use IAM roles (recommended)
@@ -173,6 +177,9 @@ This connects your S3 bucket to Snowpipe - whenever a new file is uploaded to th
    - Authenticate with your credentials
 3. Load the `redfin_table` from the database
 4. Create visualizations as shown in the dashboard preview
+
+   <img width="1238" height="690" alt="image" src="https://github.com/user-attachments/assets/ed806b71-7364-4c04-8b0b-448fe0fc6d2c" />
+
 
 ## 🔄 Pipeline Workflow
 
